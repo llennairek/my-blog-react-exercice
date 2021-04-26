@@ -1,3 +1,155 @@
+/* ----------- */
+/* GENERAL RULES */
+/* ----------- */
 .App {
-  text-align: center;
+  background-color: #e5e5e5;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* ----------- */
+/* HEADER */
+/* ----------- */
+header {
+  height: 160px;
+  background-color: #fff;
+  color: black;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* ----------- */
+/* NAV */
+/* ----------- */
+nav {
+  height: 50px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+nav > div:first-child a {
+  margin-right: 60px;
+}
+
+/* ----------- */
+/* MAIN */
+/* ----------- */
+
+main {
+  display: flex;
+  align-items: start;
+}
+
+main > div {
+  width: 65%;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.item {
+  padding: 23px 30px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.item > div {
+  width: 100%;
+  margin-bottom: 28px;
+  height: 150px;
+}
+
+.item > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------- */
+/* ASIDE */
+/* ----------- */
+aside {
+  width: 35%;
+  padding: 23px 30px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+aside > div > div {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 25px;
+}
+
+aside img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------- */
+/* FOOTER */
+/* ----------- */
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddddd;
+  margin-top: 40px;
+}
+
+footer a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  display: inline-block;
+  color: #666;
 }
